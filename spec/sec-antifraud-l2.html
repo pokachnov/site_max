@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Аналитик антифрода L2 в MAX — требования, стек, компетенции ОП ИВТ</title>
+<link rel="icon" type="image/png" href="../assets/maks.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">К содержанию</a>
+<div class="bg-aurora" aria-hidden="true"></div>
+<div class="bg-grid" aria-hidden="true"></div>
+<canvas id="particles" aria-hidden="true"></canvas>
+<div class="scroll-progress" id="progress"></div>
+<div class="cursor-dot" id="cDot"></div>
+<div class="cursor-ring" id="cRing"></div>
+<header class="topbar">
+  <a class="brand" href="../index.html">
+    <img src="../assets/maks.png" alt="MAX" class="brand-logo" style="width:40px;height:40px;border-radius:10px;object-fit:cover;">
+    <span class="brand-text"><b>MAX</b>&nbsp;<span class="dim">× МИЭМ НИУ ВШЭ</span></span>
+  </a>
+  <nav class="topnav">
+    <a href="../index.html#grid">Все специальности</a>
+    <a href="../index.html#company">О компании</a>
+    <a href="../index.html#program">О программе</a>
+  </nav>
+</header>
+<main id="main" class="wrap">
+
+  <nav class="crumbs"><a href="../index.html">Все специальности</a><span>/</span><span>Аналитик антифрода L2</span></nav>
+
+  <section class="hero reveal">
+    <div class="hero-head">
+      <div>
+        <p class="kicker">Безопасность · Middle/Middle+</p>
+        <h1>Аналитик антифрода L2</h1>
+        <p class="lead">Оперативный мониторинг и реагирование на всплески подозрительной активности и сессий.</p>
+      </div>
+      <div class="hero-side">
+        <div class="badge">Безопасность</div>
+        <div class="badge ghost">грейд: Middle/Middle+</div>
+        <div class="badge status-max">вакансия MAX</div>
+      </div>
+    </div>
+    <div class="fit">
+      <div class="fit-label">Насколько роль ложится на ОП ИВТ</div>
+      <div class="fit-bar"><span data-width="45"></span></div>
+      <div class="fit-note">Частичное соответствие: часть требований закрывается программой, часть — майнором, пет-проектом и стажировкой.</div>
+    </div>
+    <div class="hiring role-status-max" style="margin-top:1.2rem">
+      <span class="hiring-dot"></span>
+      <div><b>Статус найма:</b> подтверждённая вакансия MAX уровня Middle/Middle+</div>
+    </div>
+  </section>
+
+  <section class="card card-glow reveal" id="what"><p class="kicker">Чем занимается</p><h2>Задачи и что реально делают руками</h2><ul class="list "><li>Анализ потока аномальных событий и разметка подозрительных аккаунтов</li><li>Калибровка антифрод-правил для снижения уровня ложных срабатываний (False Positive)</li><li>Подготовка аналитических отчётов по инцидентам</li></ul></section>
+
+  <section class="card card-glow reveal" id="req">
+    <p class="kicker">Что нужно знать</p>
+    <h2>Требования</h2>
+    <ul class="list "><li>SQL, Python (базовый анализ данных)</li><li>Системы мониторинга событий</li><li>Логическое мышление</li></ul>
+    
+  </section>
+
+  <section class="card card-glow reveal" id="stack">
+    <p class="kicker">Инструменты</p>
+    <h2>Технологический стек</h2>
+    <div class="chips"><span class="chip tech">SQL</span><span class="chip tech">Python</span><span class="chip tech">Мониторинг событий</span><span class="chip tech">Anti-fraud</span><span class="chip tech">False Positive</span></div>
+  </section>
+
+  <section class="card card-glow reveal" id="program">
+    <p class="kicker">Связка с ОП ИВТ</p>
+    <h2>Какие компетенции ОП МИЭМ на это работают</h2>
+    <div class="map"><div class="map-row"><div class="map-course">Базы данных, 2 курс</div><div class="map-why">SQL — основа</div></div><div class="map-row"><div class="map-course">Python в науке о данных, 1 курс</div><div class="map-why">Python, анализ данных</div></div></div>
+    <p class="disc-label"><b>Дисциплины программы, которые работают на эту вакансию:</b></p>
+    <p class="disc"><span class="chip"><a href="../index.html#disc-3">Базы данных, 2 курс</a></span><span class="chip"><a href="../index.html#disc-7">Python в науке о данных, 1 курс</a></span></p>
+    <div class="fit" style="margin-top:1rem">
+      <div class="fit-label">Соответствие программе</div>
+      <div class="fit-bar"><span data-width="45"></span></div>
+    </div>
+  </section>
+
+  <section class="card card-glow reveal" id="growth">
+    <p class="kicker">Карьера</p>
+    <h2>Как выглядит рост в роли</h2>
+    <ul class="list arrow"><li>Junior → Middle L2 → Senior L3 → Lead</li></ul>
+  </section>
+
+  <section class="card reveal">
+    <p class="kicker">Куда ещё смотреть</p>
+    <h2>Похожие роли</h2>
+    <div class="related"><a class="rel" href="sec-antifraud-l3.html"><b>Аналитик антифрода L3</b><span>Экспертный анализ мошеннических паттернов (спам, накрутки, фишинг) и разработка правил предотвращения атак.</span></a><a class="rel" href="sec-soc.html"><b>Аналитик SOC L3</b><span>Старший аналитик центра мониторинга и реагирования на инциденты безопасности.</span></a></div>
+  </section>
+
+  <section class="card reveal" id="source">
+    <p class="kicker">Источник вакансии</p>
+    <h2>Где открыта эта вакансия</h2>
+    <div class="vac-src"><span>Вакансия на сайте MAX</span><a class="lnk" href="https://team.vk.company/vacancy/47066/" target="_blank" rel="noopener noreferrer">team.vk.company/vacancy/47066 →</a></div>
+  </section>
+
+  <div class="pager">
+    <a class="btn" href="../index.html">← Ко всем специальностям</a>
+  </div>
+
+</main>
+<script src="../assets/app.js"></script>
+</body>
+</html>
